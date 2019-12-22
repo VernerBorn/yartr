@@ -1,8 +1,20 @@
 {
   "name": "yartr",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "main": "index.js",
   "repository": "https://github.com/VernerBorn/yartr",
   "author": "VernerBorn <vernerborn@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.8"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.15",
+    "@types/node": "^12.12.21",
+    "@types/request": "^2.48.4",
+    "@types/request-promise-native": "^1.0.17",
+    "typescript": "^3.7.3"
+  }
 }
